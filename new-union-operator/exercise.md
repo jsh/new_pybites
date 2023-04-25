@@ -1,4 +1,6 @@
-Sure! Here's an exercise that illustrates and teaches the use of Python's new union operator `|`, which can be used to combine dictionaries and sets:
+# New Union Operator (Python 3.9)
+
+Here's an exercise that illustrates and teaches the use of Python's new union operator `|`, which can be used to combine dictionaries and sets:
 
 ## Bite: Combine and Count
 

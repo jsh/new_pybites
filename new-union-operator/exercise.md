@@ -38,30 +38,3 @@ If either dictionary is empty, the function should return the other dictionary:
 def combine_and_count(dict1: dict, dict2: dict) -> dict:
     pass
 ```
-
-### Example
-
-```python
->>> dict1 = {'apple': 3, 'banana': 2, 'orange': 1}
->>> dict2 = {'pear': 5, 'orange': 2, 'kiwi': 1}
->>> combine_and_count(dict1, dict2)
-{'apple': 3, 'banana': 2, 'orange': 3, 'pear': 5, 'kiwi': 1}
-
->>> dict3 = {'apple': 3, 'banana': 2, 'orange': 1}
->>> dict4 = {'pear': 5, 'mango': 2, 'kiwi': 1}
->>> combine_and_count(dict3, dict4)
-{'apple': 3, 'banana': 2, 'orange': 1, 'pear': 5, 'mango': 2, 'kiwi': 1}
-
->>> dict5 = {'apple': 3, 'banana': 2, 'orange': 1}
->>> dict6 = {}
->>> combine_and_count(dict5, dict6)
-{'apple': 3, 'banana': 2, 'orange': 1}
-
->>> dict7 = {}
->>> dict8 = {'pear': 5, 'mango': 2, 'kiwi': 1}
->>> combine_and_count(dict7, dict8)
-{'pear': 5, 'mango': 2, 'kiwi': 1}
-```
-
-### Constraints
-
